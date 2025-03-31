@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 #hero {
-    background: url('images/capa-praia.jpg') center/cover no-repeat;
+    background: url('capa-praia.jpg') center/cover no-repeat;
     height: 80vh;
     display: flex;
     align-items: center;
