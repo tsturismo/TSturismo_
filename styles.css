@@ -300,6 +300,7 @@ footer {
 .botao-reserva.topo i {
     font-size: 18px; /* tamanho do ícone */
 }
+
 .transporte-section {
     background-color: rgba(0, 39, 69, 0.8);
     padding: 40px 5%;
@@ -350,26 +351,86 @@ footer {
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
+    /* Ajuste de fontes */
+    body {
+        font-size: 14px;
+    }
+
+    #hero .hero-content h1 {
+        font-size: 32px; /* Menor título */
+    }
+
+    #hero .hero-content p {
+        font-size: 18px; /* Menor descrição */
+    }
+
+    .logo {
+        width: 250px; /* Ajuste no tamanho do logo */
+    }
+
+    /* Ajuste de layout em seção 'sobre' */
+    .sobre-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-guia {
+        width: 80%; /* Ajuste da imagem do guia */
+        margin: 0 0 20px 0;
+    }
+
+    .servico {
+        width: 100%; /* Serviços ocupando toda a largura disponível */
+        margin: 10px 0;
+    }
+
+    /* Destinos em coluna, para telas menores */
+    .destino-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destino-gallery img {
+        width: 100%; /* Imagens em tamanho ajustado */
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    /* Botões e links no topo */
+    .botao-reserva.topo {
+        font-size: 14px;
+        padding: 10px 20px;
+        width: 90%;
+    }
+
+    .botao-reserva {
+        width: 90%; /* Botão de reserva ocupa 90% da largura */
+    }
+
     .transporte-content {
-        flex-direction: column; /* Empilha as colunas para telas menores */
-        text-align: center; /* Alinha o texto no centro em telas pequenas */
+        flex-direction: column; /* Coloca as colunas em pilha */
+        text-align: center;
     }
 
     .foto-transporte {
-        max-width: 80%; /* Aumenta a largura da imagem para telas pequenas */
-        margin: 0 0 20px 0; /* Ajuste a margem inferior */
+        max-width: 80%; /* Tamanho ajustado para telas pequenas */
+        margin: 0 0 20px 0;
     }
 
     .transporte-info {
-        max-width: 100%; /* Permite que o texto ocupe toda a largura */
+        max-width: 100%;
     }
-}
-#hero .hero-content h1 {
-    font-size: 48px; /* Aumenta o tamanho do título */
-}
 
-#hero .hero-content p {
-    font-size: 20px; /* Aumenta o tamanho da descrição */
-}
+    /* Ajustes no menu de navegação */
+    nav ul {
+        display: block;
+    }
 
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
 }
