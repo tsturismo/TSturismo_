@@ -1,0 +1,375 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background: linear-gradient(to bottom, #0077b6, #00b4d8, #90e0ef);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-bar {
+    background: #588ca2;
+    height: 50px;
+    width: 100%;
+}
+
+header {
+    background: #588ca2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('images/capa-praia.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 95, 115, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.btn {
+    background: #ffb703;
+    color: #005f73;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background: #fcbf49;
+    color: #003049;
+    transform: scale(1.05);
+}
+
+.arrow-link {
+    margin-top: 10px;
+    animation: bounce 1s infinite;
+    font-size: 20px;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.sobre-section {
+    background: linear-gradient(to top, rgba(0, 95, 115, 0.6), rgba(0, 95, 115, 0) 80%);
+    padding: 50px 20px;
+}
+
+.sobre-content, .servicos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-guia {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.servico {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff33;
+    border-radius: 10px;
+}
+
+.servico i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.destino {
+    margin-bottom: 40px;
+}
+
+.destino-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.destino-info {
+    background-color: rgba(0, 39, 69, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    color: #eee;
+}
+
+.destino-info h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.destino-info p {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.passeios-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(0, 39, 69, 0.8);
+    border-radius: 8px;
+    color: #eee;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.passeios-info h4 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.passeios-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.passeios-info ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    justify-content: flex-start;
+}
+
+.passeios-info ul li i {
+    font-size: 20px;
+}
+
+.destino-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.destino-gallery img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Adiciona transição */
+    border: 5px solid #ffb703;
+}
+
+.destino-gallery img:hover {
+    transform: scale(1.1);
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btn.whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+.btn.instagram {
+    background: #E4405F;
+    color: white;
+}
+
+footer {
+    background: #005f73;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.botao-reserva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4DFF00; /* Verde chamativo */
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s;
+    gap: 10px;
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -20px;
+    text-decoration: none; /* Garante que o texto não fique sublinhado */
+}
+
+.botao-reserva:hover {
+    transform: scale(1.05);
+    background-color: #218838; /* Verde mais escuro no hover */
+}
+
+.botao-reserva i {
+    font-size: 24px;
+    animation: mexerSeta 1s infinite alternate;
+    color: white;
+}
+
+@keyframes mexerSeta {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(5px);
+    }
+}
+/* Estilo para o botão de reserva no topo */
+.botao-reserva.topo {
+    background-color: #007BFF; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    padding: 10px 20px; /* tamanho do botão */
+    font-size: 16px; /* tamanho da fonte */
+    border-radius: 5px; /* borda arredondada */
+    text-decoration: none; /* remove o sublinhado */
+    display: inline-flex;
+    align-items: center; /* para alinhar o ícone */
+    justify-content: center;
+    gap: 8px; /* espaçamento entre o texto e o ícone */
+}
+
+.botao-reserva.topo:hover {
+    background-color: #0056b3; /* cor de fundo ao passar o mouse */
+}
+
+.botao-reserva.topo i {
+    font-size: 18px; /* tamanho do ícone */
+}
+.transporte-section {
+    background-color: rgba(0, 39, 69, 0.8);
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.transporte-content {
+    display: flex;
+    justify-content: space-between; /* Coloca a imagem e o texto ao lado */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foto-transporte {
+    max-width: 40%; /* Ajusta o tamanho da imagem */
+    margin-right: 20px;
+}
+
+.foto-transporte img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
+    height: auto;
+    border-radius: 8px; /* Opção para borda arredondada, caso queira */
+}
+
+.transporte-info {
+    text-align: left;
+    max-width: 55%; /* Ajuste o tamanho do bloco de texto */
+}
+
+.transporte-info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.transporte-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.transporte-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.transporte-info li {
+    margin: 10px 0;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .transporte-content {
+        flex-direction: column; /* Empilha as colunas para telas menores */
+        text-align: center; /* Alinha o texto no centro em telas pequenas */
+    }
+
+    .foto-transporte {
+        max-width: 80%; /* Aumenta a largura da imagem para telas pequenas */
+        margin: 0 0 20px 0; /* Ajuste a margem inferior */
+    }
+
+    .transporte-info {
+        max-width: 100%; /* Permite que o texto ocupe toda a largura */
+    }
+}
+#hero .hero-content h1 {
+    font-size: 48px; /* Aumenta o tamanho do título */
+}
+
+#hero .hero-content p {
+    font-size: 20px; /* Aumenta o tamanho da descrição */
+}
+
+}

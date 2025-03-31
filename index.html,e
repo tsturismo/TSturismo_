@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSTurismo - Guia de Turismo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TSTurismo</h1>
+        <p>Guia de Turismo | Experiências Inesquecíveis</p>
+    </header>
+    
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img src="guia.jpg" alt="Foto do Guia de Turismo" width="200">
+        <p>Sou um guia de turismo apaixonado por apresentar destinos incríveis e proporcionar experiências inesquecíveis para viajantes.</p>
+    </section>
+    
+    <section id="servicos">
+        <h2>Serviços Oferecidos</h2>
+        <ul>
+            <li>City Tours</li>
+            <li>Excursões Personalizadas</li>
+            <li>Guiamento Cultural e Histórico</li>
+            <li>Roteiros Gastronômicos</li>
+        </ul>
+    </section>
+    
+    <section id="destinos">
+        <h2>Destinos e Passeios</h2>
+        <div class="destino">
+            <img src="maragogi.jpg" alt="Maragogi">
+            <p><strong>Maragogi</strong> - Passeio de lancha nas piscinas naturais</p>
+        </div>
+        <div class="destino">
+            <img src="gunga.jpg" alt="Praia do Gunga">
+            <p><strong>Praia do Gunga</strong> - Paraíso de águas cristalinas</p>
+        </div>
+        <div class="destino">
+            <img src="barra_santo_antonio.jpg" alt="Barra de Santo Antônio">
+            <p><strong>Barra de Santo Antônio</strong> - Passeio de Jeep e quadriciclos</p>
+        </div>
+        <div class="destino">
+            <img src="paripueira.jpg" alt="Paripueira">
+            <p><strong>Paripueira</strong> - Passeio de Jeep e quadriciclos</p>
+        </div>
+        <div class="destino">
+            <img src="foz_sao_francisco.jpg" alt="Foz do São Francisco">
+            <p><strong>Foz do São Francisco</strong> - Passeio de Jeep e barco</p>
+        </div>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: tsturismo@email.com</p>
+        <p>WhatsApp: (XX) XXXXX-XXXX</p>
+        <p>Redes Sociais: @tsturismo | @tsturismo_oficial</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 TSTurismo - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
