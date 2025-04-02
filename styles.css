@@ -319,7 +319,7 @@ footer {
     margin-right: 20px;
 }
 
-.foto-transporte img {
+.transporte-section img {
     width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
     height: auto;
     border-radius: 8px; /* Opção para borda arredondada, caso queira */
@@ -347,6 +347,21 @@ footer {
 
 .transporte-info li {
     margin: 10px 0;
+}
+
+/* Estilos para os botões do menu */
+.btn-nav {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    background-color: #007bff !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.btn-nav:hover {
+    background-color: #0056b3 !important;
 }
 
 /* Responsividade para telas menores */
